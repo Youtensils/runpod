@@ -28,3 +28,4 @@ find . | grep sh$ | while read script; do
     chmod +x "$script"
 done
 
+alias gotoYT="cd $BASEDIR/YT/runpod"
