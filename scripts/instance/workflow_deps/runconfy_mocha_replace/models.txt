@@ -4,7 +4,7 @@ https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/tex
     out=text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
 https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
     out=diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors
-https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/blob/main/MoCha/Wan2_1_mocha-14B-preview_fp8_e4m3fn_scaled_KJ.safetensors
+https://huggingface.co/Kijai/WanVideo_comfy_fp8_scaled/resolve/main/MoCha/Wan2_1_mocha-14B-preview_fp8_e4m3fn_scaled_KJ.safetensors
     out=diffusion_models/Wan2_1_mocha-14B-preview_fp8_e4m3fn_scaled_KJ.safetensors
 https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-Lightning-4steps-V1.0.safetensors
     out=diffusion_models/Qwen-Image-Edit-Lightning-4steps-V1.0.safetensors
