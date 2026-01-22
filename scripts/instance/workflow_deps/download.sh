@@ -3,5 +3,6 @@
 BASEDIR=/workspace/runpod-slim/ComfyUI/
 source $BASEDIR/YT/runpod/scripts/instance/env.sh
 
-echo "Install all loras"
-download_from_file models.txt $BASEDIR/models
+echo "> Downloading models from $1"
+
+download_from_file $1 $BASEDIR/models
