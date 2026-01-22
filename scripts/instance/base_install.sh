@@ -11,5 +11,16 @@ apt-get install -y screen
 
 mkdir -p $BASEDIR/YT/
 cd $BASEDIR/YT/
-git clone https://github.com/Youtensils/runpod.git
+
+if [ ! -d "runpod" ]; then
+    echo "Cloning runpod repository..."
+    git clone https://github.com/Youtensils/runpod.git
+else
+    echo "Runpod repository already exists. Pulling latest changes..."
+    cd runpod
+    git pull origin main
+    cd ..
+fi  
+
+
 
