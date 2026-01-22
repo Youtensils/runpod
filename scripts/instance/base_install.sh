@@ -22,5 +22,9 @@ else
     cd ..
 fi  
 
-
+# Make all .sh scripts executable
+find . | grep sh$ | while read script; do
+    echo "Making $script executable..."
+    chmod +x "$script"
+done
 
