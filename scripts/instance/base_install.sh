@@ -32,9 +32,8 @@ alias gotoYT="cd $BASEDIR/YT/runpod"
 
 # Install PyTorch Nightly for CUDA 12.9
 # 1) remove old torch stack
-# pip uninstall -y torch torchvision torchaudio
-# pip cache purge
+pip uninstall -y torch torchvision torchaudio
+pip cache purge
 
 # 2) install PyTorch nightly for CUDA 12.9
-# pip install -U --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
-
+pip install -U --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
