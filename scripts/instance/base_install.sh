@@ -37,3 +37,8 @@ pip cache purge
 
 # 2) install PyTorch nightly for CUDA 12.9
 pip install -U --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
+pip install sageattention
+
+echo "Base installation completed."
+
+
